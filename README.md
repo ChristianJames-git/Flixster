@@ -28,7 +28,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ### Notes
 
-Describe any challenges encountered while building the app.
+Building the base app went smoothly with the walkthrough and a few changes due to version differences.
+Implementing transitions took a while as I tried to use the Pair class but the import statement CodePath said to use was not recognized. Much googling did not fix this. I realize now I should've asked in the Slack help chat but the transition is still implemented on the title.
+The CodePath provided code for rounding corners used GlideApp which Android didn't recognize at all. Changing GlideApp to Glide fixed this issue.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
